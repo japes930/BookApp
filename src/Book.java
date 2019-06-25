@@ -57,6 +57,7 @@ public class Book {
             this.isInStock = isInStock;
         }
 
+//        public double totalPrice
 
 
 //    }
