@@ -11,16 +11,16 @@ public class Book {
     }
 
     public Book(String title, String author, String description, double price,
-                boolean isInstock) {
+                boolean isInStock) {
         this.title = title;
         this.author = author;
         this.description = description;
         this.price = price;
-        this.isInStock = isInstock;
+        this.isInStock = isInStock;
     }
 
     public String getDisplayText(){
-        return "Author: "  + author + "\n" + "Title: " + title + "\n" + description;
+        return "Title: " + title + "\n" + "Author: "  + author + "\n" + description;
     }
 
 ////    GETTERS for each private variable
@@ -57,7 +57,13 @@ public class Book {
             this.isInStock = isInStock;
         }
 
-//        public double totalPrice
+//        ADD METHOD FOR TOTALING BOOKS AND COST
+//        public double buyBooks(String title, int num){
+//        switch(title){
+//           this.title
+//        }
+//
+
 
 
 //    }
