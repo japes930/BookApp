@@ -1,5 +1,5 @@
 public class Book {
-//    public static void main(String[] args){
+
     private String title;
     private String author;
     private String description;
@@ -65,7 +65,5 @@ public class Book {
 //
 
 
-
-//    }
 }
 
